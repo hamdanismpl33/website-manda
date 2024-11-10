@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto Bergulir</title>
+    <!-- Menyertakan font Google untuk tampilan teks yang lebih menarik -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Atur gaya dasar untuk halaman */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4; /* Warna latar belakang halaman */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Styling untuk galeri foto */
+        .gallery-container {
+            display: flex;
+            overflow-x: scroll;
+            padding: 20px;
+            gap: 15px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan pada kontainer */
+            scroll-snap-type: x mandatory; /* Membantu gambar tersusun rapi saat digulir */
+        }
+
+        .gallery-container img {
+            max-height: 200px;
+            border-radius: 8px;
+            object-fit: cover;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi saat hover */
+            scroll-snap-align: start;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk gambar */
+        }
+
+        .gallery-container img:hover {
+            transform: scale(1.1); /* Memperbesar gambar saat dihover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Efek bayangan lebih besar saat hover */
+        }
+
+        /* Hilangkan scrollbar default (opsional) */
+        .gallery-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        <style>
+        img {
+            width: 500px;
+            height: auto;
+        }
+
+        .center-content {
+            text-align: center;
+        }
+
+        .framed-message {
+            border: 2px solid #ff1493; /* Color of the frame */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 15px; /* Rounded corners for the frame */
+            background-color: #fdf0ff; /* Light background inside the frame */
+            text-align: center;
+        }
+    </style>        
+    </style>
+</head>
+<body>
+    <div class="framed-message">
+        <h2>foto kamu pertama yang kamu kirim ke aku</h2>
+    </div>
+    <div class="gallery-container">
+        <img src="evadwi2.jpg" alt="Foto 1">
+        <img src="evadwi2.jpg" alt="Foto 2">
+        <img src="evadwi2.jpg" alt="Foto 3">
+        <img src="evadwi2.jpg" alt="Foto 4">
+        <img src="evadwi2.jpg" alt="Foto 5">
+        <!-- Tambahkan gambar lainnya di sini -->
+    </div>
+    
+    <div class="framed-message">
+        <h2>ini chat pertama kamu semangati aku sayang</h2>
+    </div>
+    <div class="gallery-container">
+        <img src="chatPertama.jpg" alt="Foto 1">
+        <img src="chatKedua.jpg" alt="Foto 2">
+        
+        <!-- Tambahkan gambar lainnya di sini -->
+    </div>
+    <div class="framed-message">
+        <h2>ini chat pertama kamu perhatian ke aku wkwkwk</h2>
+    </div>
+    <div class="gallery-container">
+        <img src="chatPertama.jpg" alt="Foto 1">
+        <img src="chatKedua.jpg" alt="Foto 2">
+        
+        <!-- Tambahkan gambar lainnya di sini -->
+    </div>
+    <div class="framed-message">
+        <h2>moment aku nembak kamu</h2>
+        <h2>aku senang bangat,itu malam yang sangat bahagia</h2>
+    </div>
+    <div class="gallery-container">
+        <img src="chatnembak.jpg" alt="Foto 1">
+        <img src="chatnembak.jpg" alt="Foto 2">
+        
+        <!-- Tambahkan gambar lainnya di sini -->
+    </div>
+
+    
+</div>
+<div class="framed-message">
+    <h2> ini kamu waktu vc an sama aku,aku suka bangattt!!!!!!</h2>
+</div>
+
+<div class="gallery-container">
+    <img src="vc1.jpg" alt="Foto 1">
+    <img src="vc2.jpg" alt="Foto 2">
+    <img src="vc3.jpg" alt="Foto 3">
+    <img src="vc4.jpg" alt="Foto 4">
+    <img src="vc5.jpg" alt="Foto 5">
+    
+    <!-- Tambahkan gambar lainnya di sini -->
+</div>
+
+<div class="framed-message">
+    <h4>
+        <p>Selamat mengulang hari kelahiran Spesial one day</p>
+        <p>Selamat ulang tahun!!! Make a wish for ur b’day,tahun ini umur kamu tambah satu tahun semoga
+             saja kamu sehat sehat, kamu sekarang semakin dewasa, apapun yang kamu inginkan semoga bisa 
+             terjadi, banyak hal yang sudah kamu lakuin dan masih banyak hal yang belum kamu lakuin, semakin
+              kamu tumbuh besar semakin banyak juga rintangannya but its okayyy karena mungkin masih banyak 
+              hal yang belum kamu tahu tentang diri kamu sendiri. Tahun depan.kamu mungkin akan nemuin genre 
+              lagu/musisi favorit barumu,mungkin akan nemuin penulis favorit barumu, atau kamu jadi suka bangat 
+              jalan kaki padahal mageran. Kamu berubah dan bertumbuh seiring berjalannya waktu.itulah yang bikin 
+              hidup kamu lebih berwarna</p>
+    </h4>
+</div>
+
+ </div>
+    
+</body>
+</html>

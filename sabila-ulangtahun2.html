@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Kedua</title>
+     <!--css-->
+  <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+    <center>
+    <h2>Masukkan Nama</h2>
+    <input type="text" id="nameInput" placeholder="Masukkan nama kamu">
+    <button onclick="checkName()">Submit</button>
+    <p id="message"></p>
+
+    <video id="sabilaanimasi" width="320" height="240" controls autoplay>
+        <source src="evadwi1.mp4" type="video/mp4">
+    </video>
+    </center>
+
+    <script>
+        function checkName() {
+            const name = document.getElementById('nameInput').value;
+            const message = document.getElementById('message');
+            if (name.toLowerCase() === 'eva dwi anggraini') {
+                message.textContent = 'Semoga kamu senang ini, eva dwi anggraini!';
+                window.location.href = 'sabila_ulangtahun.html';
+            } else {
+                message.textContent = 'Jangan bohong!! Nama kamu eva dwi anggraini kan?, karena ini dibuat oleh Hamdani untuk eva dwi anggraini. MASUKIN NAMA LENGKAP KAMU!!!!!! AGAR BISA MEMBUKANYA!!! gunakan huruf kecil semua.';
+            }
+        }
+    </script>     
+</body>
+</html>
